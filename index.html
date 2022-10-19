@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Checkpoint4</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cec8cacc51.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header-desktop">
+      <article class="width flex column">
+        <h1 class="logo">Flexor</h1>
+        <nav>
+          <ul class="inline nav-link">
+            <li><a id="red" href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+              <select class="drop-down-container" name="language"><i class="fa-solid fa-caret-down"></i>>
+                <ul>
+                  <li>
+                    <option value="Drop Down">Drop Down</option>
+                  </li>
+                  <li>
+                    <option value="Drop Down1">Drop Down1</option>
+                  </li>
+                  <li>
+                    <option value="Drop Down2">Drop Down2</option>
+                  </li>
+                </ul>
+              </select>
+            </li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </article>
+    </header>
+    <!-- header-mobile -->
+    <header class="header padding header-mobile">
+      <div class="container flex justify-content align-item">
+        <div class="brand"> <a href="#">Flexor</a> </div>
+        <div class="flex align-items">
+           <label class="bars" for="toggle">
+              <i class="fas fa-bars"></i> 
+            </label>
+            <input id="toggle" type="checkbox">
+          <nav class="nav-toggle header-nav flex align-item justify-content">
+            <ul class="flex">
+              <li class="active"> <a href="#">Home</a> </li>
+              <li> <a href="#about">About</a> </li>
+              <li> <a href="#services">Services</a> </li>
+              <li> <a href="#portfolio">Portfolio</a> </li>
+              <li> <a href="#team">Team</a> </li>
+              <li> <a href="#pricing">Pricing</a> </li>
+              <li> <a href="blog.html">Blog</a> </li>
+              <li class="sub-menu-box"> <a href="#"> <span>Dropdown</span> <span><i class="fas fa-chevron-down"></i></span>
+                </a>
+                <ul class="sub-menu">
+                  <li> <a href="#">Drop-1</a> </li>
+                  <li class="sub-menu-box-1"> <a href="#"> <span>Drop-2</span> <span><i class="fas fa-chevron-right"></i></span>
+                    </a>
+                    <ul class="sub-menu-1">
+                      <li> <a href="#">Submenu 1</a> </li>
+                      <li> <a href="#">Submenu 2</a> </li>
+                      <li> <a href="#">Submenu 3</a> </li>
+                    </ul>
+                  </li>
+                  <li> <a href="#">Drop-3</a> </li>
+                  <li> <a href="#">Drop-4</a> </li>
+                  <li> <a href="#">Drop-5</a> </li>
+                </ul>
+              </li>
+              <li> <a href="#contact">Contact</a> </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+     
+      <!-- image section -->
+      <section class="background-image position column">
+        <div class="width">
+          <article class="mt-top">
+            <div>
+              <h1 class="flexor-head">Welcome To Flexor</h1>
+              <p class="flex-para">
+                We are team of talanted designers making websites with Bootstrap
+              </p>
+            </div>
+            <div class="inline">
+              <i class="fa-solid fa-circle-arrow-right right"></i>
+              <div class="capsule-font">
+                <p class="start">Get Started</p>
+              </div>
+            </div>
+          </article>
+          <div class="inline flexor">
+          <div class="company-website">
+            <h2 class="flexor-head">
+              Why Choose Flexor of Your Company Website?
+            </h2>
+            <p class="flex-para">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <div class="mt-center">
+              <p class="btn-more">
+                Learn More <i class="fa-solid fa-caret-right"></i>
+              </p>
+            </div>
+          </div>
+          <div class="features">
+            <div class="mt-center">
+              <i class="fa-solid fa-book book-icon"></i>
+            </div>
+            <h3 class="feature-head">Corporis Voluplates Sit</h3>
+            <p class="feature-para">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </p>
+          </div>
+          <div class="features-cubic">
+            <div class="mt-center">
+              <i class="fa-solid fa-cube book-icon"></i>
+            </div>
+            <h3 class="feature-head">Ullamco Loboris Ladore Pan</h3>
+            <p class="feature-para">
+              Expecture long established fact that a reader will be distracted
+              by the readable content of a page when looking at its layout.
+            </p>
+          </div>
+          <div class="features-net">
+            <div class="mt-center">
+              <i class="fa-solid fa-hospitals  book-icon"></i>
+            </div>
+            <h3 class="feature-head">Ullamco Loboris Ladore Pan</h3>
+            <p class="feature-para">
+              Expecture long established fact that a reader will be distracted
+              by the readable content of a page when looking at its layout.
+            </p>
+          </div>
+          </div>
+        </div>
+      </section>
+      <!-- about section -->
+      <section class="about">
+        <div class="width">
+          <div class="flex column">
+            <figure class="position">
+              <img class="about-image" src="./assets/media/about-img.jpg" />
+              <i class="fa-solid fa-circle-play book-icon icon-place"></i>
+            </figure>
+            <article class="mt-margin">
+              <h3 class="about-head">About</h3>
+              <h2 class="enim-color">
+                Enim quis est voluptatibus aliquid consequator fugiat
+              </h2>
+              <p class="enim-para">
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident
+              </p>
+              <div class="mt-margin inline flex-margin">
+                <i class="fa-solid fa-fingerprint finger-icon"></i>
+                <div class="sec-left">
+                  <h3 class="lorem">Lorem Impsum</h3>
+                  <p class="lorem-para">
+                    Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                    text used in laying out print, graphic or web designs. The
+                    passage.
+                  </p>
+                </div>
+              </div>
+              <div class="mt-margin inline flex-margin">
+                <i class="fa-solid fa-gift finger-icon"></i>
+                <div class="sec-left">
+                  <h3 class="lorem">Nemo Enim</h3>
+                  <p class="lorem-para">
+                    Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                    text used in laying out print, graphic or web designs. The
+                    passage.
+                  </p>
+                </div>
+              </div>
+              <div class="mt-margin inline flex-margin">
+                <i class="fa-brands fa-react finger-icon"></i>
+                <div class="sec-left">
+                  <h3 class="lorem">Dine Pad</h3>
+                  <p class="lorem-para">
+                    Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                    text used in laying out print, graphic or web designs. The
+                    passage.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- logo section -->
+      <section class="normal-padding">
+        <article class="width">
+          <figure class="upper-margin inline column">
+            <img class="image-size" src="./assets/media/clients/client-2.png" />
+            <img
+              class="image-size space-left"
+              src="./assets/media/clients/client-3.png"
+            />
+            <img
+              class="image-size space-left"
+              src="./assets/media/clients/client-4.png"
+            />
+            <img
+              class="image-size space-left"
+              src="./assets/media/clients/client-5.png"
+            />
+            <img
+              class="image-size space-left"
+              src="./assets/media/clients/client-6.png"
+            />
+            <img
+              class="image-size space-left"
+              src="./assets/media/clients/client-7.png"
+            />
+          </figure>
+        </article>
+      </section>
+      <!-- service section -->
+      <section class="normal-padding section-color">
+        <h2 class="service-header">Sevices</h2>
+        <p class="service-para">
+          McClintock's eye for detail certainly helped narrow the whereabouts of
+          lorem ipsum's origin, however, the “how and when” still remain
+          something of a mystery, with competing theories and timelines.however,
+          the “how and when” still remain
+        </p>
+        <div class="flex upper-margin column">
+          <article class="position">
+            <div class="wrap-circle">
+              <i class="fa-solid fa-desktop icon-white"></i>
+            </div>
+            <div class="small-container">
+              <h3 class="small-head">LOREM IMPSUM</h3>
+              <p class="small-para">
+                The passage is attributed to an unknown typesetter in the 15th
+                century
+              </p>
+            </div>
+          </article>
+          <article class="position">
+            <div class="wrap-circle">
+              <i class="fa-solid fa-desktop icon-white"></i>
+            </div>
+            <div class="small-container">
+              <h3 class="small-head">DOLLAR SITEMA</h3>
+              <p class="small-para">
+                The passage is attributed to an unknown typesetter in the 15th
+                century
+              </p>
+            </div>
+          </article>
+          <article class="position">
+            <div class="wrap-circle">
+              <i class="fa-solid fa-earth-africa icon-white"></i>
+            </div>
+            <div class="small-container">
+              <h3 class="small-head">SED UT PERPICIATS</h3>
+              <p class="small-para">
+                The passage is attributed to an unknown typesetter in the 15th
+                century
+              </p>
+            </div>
+          </article>
+        </div>
+        <div class="flex upper-margin column">
+          <article class="position">
+            <div class="wrap-circle">
+              <i class="fa-solid fa-image icon-white"></i>
+            </div>
+            <div class="small-container">
+              <h3 class="small-head">MAGNI DOLLERS</h3>
+              <p class="small-para">
+                The passage is attributed to an unknown typesetter in the 15th
+                century
+              </p>
+            </div>
+          </article>
+          <article class="position">
+            <div class="wrap-circle">
+              <i class="fa-solid fa-bars icon-white"></i>
+            </div>
+            <div class="small-container">
+              <h3 class="small-head">NEMO ENIM</h3>
+              <p class="small-para">
+                The passage is attributed to an unknown typesetter in the 15th
+                century
+              </p>
+            </div>
+          </article>
+          <article class="position">
+            <div class="wrap-circle">
+              <i class="fa-solid fa-hard-drive icon-white"></i>
+            </div>
+            <div class="small-container">
+              <h3 class="small-head">SED UT PERPICIATS</h3>
+              <p class="small-para">
+                The passage is attributed to an unknown typesetter in the 15th
+                century
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- backgound-image-section -->
+      <section class="normal-padding">
+        <article class="upper-margin">
+          <div class="flex column">
+            <div class="back-image position">
+              <div class="image-container">
+                <h2 class="mission-box">Our Mission</h2>
+                <p class="mission-para">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <span class="mission-para"
+                  ><i class="fa-solid fa-arrow-right"></i> Read More</span
+                >
+              </div>
+            </div>
+            <div class="plan-image position">
+              <div class="image-container">
+                <h2 class="mission-box">Our Plan</h2>
+                <p class="mission-para">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <span class="mission-para"
+                  ><i class="fa-solid fa-arrow-right"></i> Read More</span
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="upper-margin">
+          <div class="flex column">
+            <div class="vision-image position">
+              <div class="image-container">
+                <h2 class="mission-box">Our Vision</h2>
+                <p class="mission-para">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <span class="mission-para"
+                  ><i class="fa-solid fa-arrow-right"></i> Read More</span
+                >
+              </div>
+            </div>
+            <div class="care-image position">
+              <div class="image-container">
+                <h2 class="mission-box">Our Care</h2>
+                <p class="mission-para">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <span class="mission-para"
+                  ><i class="fa-solid fa-arrow-right"></i> Read More</span
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <!-- profile section -->
+      <section class="profile-back-image normal-padding">
+        <figure class="image-center">
+          <img
+            class="image-circle"
+            src="./assets/media/testimonials/testimonials-3.jpg"
+          />
+        </figure>
+        <h2 class="profile-name">Jena Karlis</h2>
+        <p class="owner-desigination">Store Owner</p>
+        <p class="dquote">
+          <i class="fa-solid fa-quote-left"></i>Contrary to popular belief,
+          Lorem Ipsum is not simply random text. It has roots in a piece of
+          classical Latin literature from 45 BC, making it over 2000 years old.
+          Richard McClintock, a Latin professor at Hampden-Sydney College in
+          Virginia, looked up one of the more obscure Latin words, consectetur,
+          from a Lorem Ipsum passage, and going through the cites<i
+            class="fa-solid fa-quote-right"
+          ></i>
+        </p>
+        <div class="inline slider-center">
+          <div class="slider"></div>
+          <div class="slider"></div>
+          <div class="slider-circle"></div>
+          <div class="slider"></div>
+          <div class="slider"></div>
+        </div>
+      </section>
+      <!-- portfolio-section -->
+      <section class="portfolio-section">
+        <h2 class="portfolio-head">Portfolio</h2>
+        <p class="portfolio-para">Magna Dollas a Latin professor at Hampden-Sydney College in
+        Virginia, looked up one of the more obscure Latin words, consectetur,
+        from a Lorem Ipsum passage, and going through the cites a Latin professor at Hampden-Sydney College in</p>
+        <div class="inline slider-center">
+          <div class="click">ALL</div>
+          <div class="style">APP</div>
+          <div class="style">CARD</div>
+          <div class="style">WEB</div>
+        </div>
+        <div class="normal-padding">
+          <img class="image-width" src="./assets/media/portfolio/portfolio-1.jpg">
+          <img class="image-width" src="./assets/media/portfolio/portfolio-2.jpg">
+          <img class="image-width" src="./assets/media/portfolio/portfolio-3.jpg">
+        </div>
+        <div class="normal-padding">
+          <img class="image-width" src="./assets/media/portfolio/portfolio-4.jpg">
+          <img class="image-width" src="./assets/media/portfolio/portfolio-5.jpg">
+          <img class="image-width" src="./assets/media/portfolio/portfolio-6.jpg">
+        </div>
+        <div class="normal-padding">
+          <img class="image-width" src="./assets/media/portfolio/portfolio-7.jpg">
+          <img class="image-width" src="./assets/media/portfolio/portfolio-8.jpg">
+          <img class="image-width" src="./assets/media/portfolio/portfolio-9.jpg">
+        </div>
+      </section>
+      <!-- team-section -->
+      <section class="team-color">
+        <div class="team-width">
+      <h2 class="team-head">Team</h2>
+      <p class="portfolio-para">Magna Dollas a Latin professor at Hampden-Sydney College in
+        Virginia, looked up one of the more obscure Latin words, consectetur,
+        from a Lorem Ipsum passage, and going through the cites a Latin professor at Hampden-Sydney College in</p>
+        <div class="inline team-image-padding column">
+        <article  class="team-image-padding position">
+          <figure>
+          <img  class="resize-image" src="./assets/media/team/team-1.jpg">
+          </figure>
+          <div class="name-box">
+            <h3 class="font-name">Walter White</h3>
+            <p class="para-font">Chief Executive Officer</p>
+          </div>
+        </article>
+        <article class="team-image-padding position">
+          <figure>
+            <img class="resize-image" src="./assets/media/team/team-2.jpg">
+          </figure>
+          <div class="name-box">
+            <h3 class="font-name">Sarah Jhonson</h3>
+            <p class="para-font">Product Manager</p>
+          </div>
+        </article>
+        </article>
+        <article class="team-image-padding position">
+          <figure>
+            <img class="resize-image" src="./assets/media/team/team-3.jpg">
+          </figure>
+          <div class="name-box">
+            <h3 class="font-name">William Anderson</h3>
+            <p class="para-font">CTO</p>
+          </div>
+        </article>
+        <article class="team-image-padding position">
+          <figure>
+            <img class="resize-image" src="./assets/media/team/team-4.jpg">
+          </figure>
+          <div class="name-box">
+            <h3 class="font-name">Amanda Jamson</h3>
+            <p class="para-font">Accountant</p>
+          </div>
+        </article>
+        </div>
+        </div>
+      </section>
+      <!-- pricing-section -->
+      <section id="Pricing">
+        <div class="container">
+          <div class="section-intro">
+            <h2 class="team-head">
+              Pricing
+            </h2>
+            <p class="section-description">
+              Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Obcaecati, animi vel
+              necessitatibus ducimus ipsam provident
+              quibusdam! Asperiores vel cum aut similique
+              , ad aperiam totam consectetur, ex eius quis, veniam impedit.
+            </p>
+          </div>
+      
+          <div class="pricing-boxes-container place column">
+            <div class="pricing-box flex-23">
+              <div class="pricing-packs-name">
+                <h4>Free</h4>
+              </div>
+              <div class="price">
+                <h5><span class="dollar">$</span><span class="number">19</span>/month</h5>
+                <a href="#">Aida dere</a>
+                <a href="#">Nec feugiat nisl</a>
+                <a href="#">Nulla at volutpat dola</a>
+                <div class="line-through">
+                  <a href="#">Phareta massa</a>
+                  <a href="#">Massa ultricies mi</a>
+                </div>
+                </div>
+                <div class="pricing-btn middle">
+                  <a href="#">Buy Now</a>
+                </div>
+                </div>
+                
+                <div class="pricing-box flex-23">
+                  <div class="pricing-packs-name active">
+                    <h4>Buisness</h4>
+                  </div>
+                  <div class="price">
+                    <h5><span class="dollar">$</span><span class="number">19</span>/month</h5>
+                    <a href="#">Aida dere</a>
+                    <a href="#">Nec feugiat nisl</a>
+                    <a href="#">Nulla at volutpat dola</a>
+                    <a href="#">Phareta massa</a>
+                    <div class="line-through">
+                      <a href="#">Massa ultricies mi</a>
+                    </div>
+                  </div>
+                  <div class="pricing-btn middle">
+                    <a href="#">Buy Now</a>
+                  </div>
+                </div>
+                <div class="pricing-box flex-23 ">
+                  <div class="pricing-packs-name">
+                    <h4>Developer</h4>
+                  </div>
+                  <div class="price">
+                    <h5><span class="dollar">$</span><span class="number">19</span>/month</h5>
+                    <a href="#">Aida dere</a>
+                    <a href="#">Nec feugiat nisl</a>
+                    <a href="#">Nulla at volutpat dola</a>
+                    <a href="#">Phareta massa</a>
+                    <a href="#">Massa ultricies mi</a>
+                  </div>
+                  <div class="pricing-btn middle">
+                    <a href="#">Buy Now</a>
+                  </div>
+                
+                </div>
+                
+                <div class="pricing-box flex-23 Ribbon-text">
+                  <div class="pricing-packs-name">
+                    <h4>Ultimate</h4>
+                  </div>
+                  <div class="price">
+                    <h5><span class="dollar">$</span><span class="number">19</span>/month</h5>
+                    <a href="#">Aida dere</a>
+                    <a href="#">Nec feugiat nisl</a>
+                    <a href="#">Nulla at volutpat dola</a>
+                    <a href="#">Phareta massa</a>
+                    <a href="#">Massa ultricies mi</a>
+                  </div>
+                  <div class="pricing-btn middle">
+                      <a href="#">Buy Now</a>
+             </div>
+             </div>
+           </div>
+         </div>
+       </section>
+       <!-- FAQ Section -->
+       <section class="team-color">
+           <h2 class="team-head">F.A.Q</h2>
+            <p class="portfolio-para">Magna Dollas a Latin professor at Hampden-Sydney College in
+              Virginia, looked up one of the more obscure Latin words, consectetur,
+              from a Lorem Ipsum passage, and going through the cites a Latin professor at Hampden-Sydney College in</p>
+              <div class="quiries-width position">
+              <div class="upper-margin quiries-box">
+              <i class="fa-solid fa-circle-question question-icon"></i><span class="question-icon">There are many variations of passages ?</span>
+              <i class="fa-solid fa-angle-up up-arrow"></i>
+              <p class="feu-para">Feuigiant but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+              the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing</p>
+              </div>
+              <div class="semi-box position">
+                <i class="fa-solid fa-circle-question question-icon"></i><span class="feu-para">Feuigiant but also the leap into electronic ?</span>
+                <i class="fa-solid fa-angle-down down-arrow"></i>
+              </div>
+              <div class="semi-box position">
+                <i class="fa-solid fa-circle-question question-icon"></i><span class="feu-para">Dollar set but also the leap into
+                  electronic ?</span>
+                <i class="fa-solid fa-angle-down down-arrow"></i>
+              </div>
+              <div class="semi-box position">
+                <i class="fa-solid fa-circle-question question-icon"></i><span class="feu-para">Tempus set but also the leap into
+                  electronic ?</span>
+                <i class="fa-solid fa-angle-down down-arrow"></i>
+              </div>
+              <div class="semi-box position">
+                <i class="fa-solid fa-circle-question question-icon"></i><span class="feu-para">Torter set but also the leap into
+                  electronic ?</span>
+                <i class="fa-solid fa-angle-down down-arrow"></i>
+              </div>
+              </div>
+       </section>
+       <!-- contact-section -->
+       <section class="team-color">
+        <h2 class="team-head">Contact</h2>
+        <p class="portfolio-para">Magna Dollas a Latin professor at Hampden-Sydney College in
+          Virginia, looked up one of the more obscure Latin words, consectetur,
+          from a Lorem Ipsum passage, and going through the cites a Latin professor at Hampden-Sydney College in</p>
+          <article class="contact-width">
+          <div class="flex column">
+          <div class="adress-box"> 
+            <i class="fa-solid fa-location-dot location-icon"></i><span>Our Address</span>
+            <p class="adress-para">A108 Adam street, New York, NY 352022</p>
+          </div>
+          <div class="adress-box">
+            <i class="fa-solid fa-envelope location-icon"></i></i><span>Email Us</span>
+            <p class="adress-para">info@example.com</p>
+            <p class="adress-para">contact@example.com</p>
+          </div>
+          <div class="adress-box">
+            <i class="fa-solid fa-address-book location-icon"></i><span>Call Us</span>
+            <p class="adress-para">+91 00 000 546</p>
+            <p class="adress-para">+91 546 00 000</p>
+          </div>
+        </div>
+          <div class="input-container">
+            <input class="text-box" type="text" name="Your Name" placeholder="Your Name">
+            <input class="text-box" type="text" name="email-address" placeholder="Your Email">
+            <input class="subject-box" type="text" name="subject" placeholder="Subject">
+            <textarea class="message-box" name="message" cols="83" rows="8" placeholder="Message"></textarea>
+            <div class="btn-center">
+              <button class="send-btn">Send Message</button>
+            </div>
+           </div>
+           </article>
+       </section>
+       <!-- Bottom-section -->
+       <section class="bottom-color">
+        <article class="bottom-width flex direction">
+          <div>
+            <h2 class="bottom-head">Flexor</h2>
+            <p class="bottom-para">A108 Adem Street New York NY535022 United States</p>
+            <div class="contact-margin">
+              <p class="contact-font"></p><strong>Phone No.</strong> 9652335525</p>
+              <p><strong>Email.</strong> info@example.com</p>
+            </div>
+          </div>
+          <div>
+            <h3 class="link-head-font">Useful Links</h3>
+            <div>
+            <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>Home</p>
+            <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>About</p>
+            <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>Services</p>
+            <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>Terms Of policy</p>
+            <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>Privacy Policy</p>
+            </div>
+          </div>
+          <div>
+            <h3 class="link-head-font">Our Services</h3>
+            <div>
+              <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>Web Design</p>
+              <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>Web Development</p>
+              <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>Product Management</p>
+              <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>Marketting</p>
+              <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>Graphic Design</p>
+            </div>
+          </div>
+          <div>
+            <h3 class="link-head-font">Join Our Newsletter</h3>
+            <p class="bottom-para">On sait depuis longtemps que travailler avec du texte lisible 
+           </p>
+           <div class="subscribe-box">
+             <button class="sub-btn">Subscribe</button>
+           </div>
+          </div>
+        </article>
+      </section>
+      <!-- footer-section -->
+      <footer class="bottom-width flex column">
+        <div>
+        <small>&copy;copyright<span> Flexor </span>All Right Reserved</small>
+        <p class="foot">Designed by <span>Bootstrep</span></p>
+        </div>
+        <div>
+          <i class="fa-brands fa-twitter-square social-icon"></i>
+          <i class="fa-brands fa-facebook social-icon"></i>
+          <i class="fa-brands fa-instagram-square social-icon"></i>
+          <i class="fa-brands fa-linkedin social-icon"></i>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

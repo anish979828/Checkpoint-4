@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cec8cacc51.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header-desktop">
+      <article class="width flex column">
+        <h1 class="logo">Flexor</h1>
+        <nav>
+          <ul class="inline nav-link">
+            <li><a id="red" href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+              <select class="drop-down-container" name="language"
+                ><i class="fa-solid fa-caret-down"></i
+                >>
+                <ul>
+                  <li>
+                    <option value="Drop Down">Drop Down</option>
+                  </li>
+                  <li>
+                    <option value="Drop Down1">Drop Down1</option>
+                  </li>
+                  <li>
+                    <option value="Drop Down2">Drop Down2</option>
+                  </li>
+                </ul>
+              </select>
+            </li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </article>
+    </header>
+    <main>
+      <article class="block-back-color">
+        <a class="index-color" href="index.html">Home</a>
+        <a class="blog-color" href="blog.html">/ Blog</a>
+      </article>
+        <!-- header-mobile -->
+        <header class="header padding header-mobile">
+          <div class="container flex justify-content align-item">
+            <div class="brand"> <a href="#">Flexor</a> </div>
+            <div class="flex align-items">
+              <label class="bars" for="toggle">
+                <i class="fas fa-bars"></i>
+              </label>
+              <input id="toggle" type="checkbox">
+              <nav class="nav-toggle header-nav flex align-item justify-content">
+                <ul class="flex">
+                  <li class="active"> <a href="index.html">Home</a> </li>
+                  <li> <a href="#about">About</a> </li>
+                  <li> <a href="#services">Services</a> </li>
+                  <li> <a href="#portfolio">Portfolio</a> </li>
+                  <li> <a href="#team">Team</a> </li>
+                  <li> <a href="#pricing">Pricing</a> </li>
+                  <li> <a href="blog.html">Blog</a> </li>
+                  <li class="sub-menu-box"> <a href="#"> <span>Dropdown</span> <span><i class="fas fa-chevron-down"></i></span>
+                    </a>
+                    <ul class="sub-menu">
+                      <li> <a href="#">Drop-1</a> </li>
+                      <li class="sub-menu-box-1"> <a href="#"> <span>Drop-2</span> <span><i class="fas fa-chevron-right"></i></span>
+                        </a>
+                        <ul class="sub-menu-1">
+                          <li> <a href="#">Submenu 1</a> </li>
+                          <li> <a href="#">Submenu 2</a> </li>
+                          <li> <a href="#">Submenu 3</a> </li>
+                        </ul>
+                      </li>
+                      <li> <a href="#">Drop-3</a> </li>
+                      <li> <a href="#">Drop-4</a> </li>
+                      <li> <a href="#">Drop-5</a> </li>
+                    </ul>
+                  </li>
+                  <li> <a href="#contact">Contact</a> </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </header>
+      <!-- first-section -->
+      <section class="image-text">
+        <article class="flex column">
+          <figure>
+            <img class="blog-image" src="./assets/media/blog-1.jpg" />
+            <div class="text-box">
+              <h2 class="text-head">
+                Dolorum optio variations of passages of Lorem Ipsum available
+              </h2>
+              <div class="date-font">
+              <span class="date-font"
+                ><i class="fa-solid fa-user"></i> John Doe</span
+              >
+              <span class="date-font"></span>
+                <i class="fa-solid fa-clock"></i>Jan 1, 2020</span
+              >
+              </div>
+              <p class="text-para">
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+                45 BC, making it over 2000 years old. Richard McClintock
+              </p>
+              <div class="right-margin">
+              <button class="read-btn">Read More</button>
+              </div>
+            </div>
+          </figure>
+          <figure>
+            <img class="blog-image" src="./assets/media/blog-2.jpg" />
+            <div class="text-box">
+              <h2 class="text-head">
+                Nisi Magni variations of passages of Lorem Ipsum available
+              </h2>
+              <div class="date-font">
+                <span class="date-font"><i class="fa-solid fa-user"></i> John Doe</span>
+                <span class="date-font"></span>
+                <i class="fa-solid fa-clock"></i>Jan 1, 2020</span>
+              </div>
+              <p class="text-para">
+                 Ad Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+                45 BC, making it over 2000 years old. Richard McClintock
+              </p>
+              <div class="right-margin">
+                <button class="read-btn">Read More</button>
+              </div>
+            </div>
+          </figure>
+          <figure>
+            <img class="blog-image" src="./assets/media/blog-3.jpg" />
+            <div class="text-box">
+              <h2 class="text-head">
+                Possimus variations of passages of Lorem Ipsum available
+              </h2>
+              <div class="date-font">
+                <span class="date-font"><i class="fa-solid fa-user"></i> John Doe</span>
+                <span class="date-font"></span>
+                <i class="fa-solid fa-clock"></i>Jan 1, 2020</span>
+              </div>
+              <p class="text-para">
+                Ad Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+                45 BC, making it over 2000 years old. Richard McClintock
+              </p>
+              <div class="right-margin">
+                <button class="read-btn">Read More</button>
+              </div>
+            </div>
+          </figure>
+        </article>
+        <article class="flex top column">
+          <figure>
+            <img class="blog-image" src="./assets/media/blog-4.jpg" />
+            <div class="text-box">
+              <h2 class="text-head">
+                Non Rem variations of passages of Lorem Ipsum available
+              </h2>
+              <div class="date-font">
+                <span class="date-font"><i class="fa-solid fa-user"></i> John Doe</span>
+                <span class="date-font"></span>
+                <i class="fa-solid fa-clock"></i>Jan 1, 2020</span>
+              </div>
+              <p class="text-para">
+                Aspernutur to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+                45 BC, making it over 2000 years old. Richard McClintock
+              </p>
+              <div class="right-margin">
+                <button class="read-btn">Read More</button>
+              </div>
+            </div>
+          </figure>
+          <figure>
+            <img class="blog-image" src="./assets/media/blog-5.jpg" />
+            <div class="text-box">
+              <h2 class="text-head">
+              Blandittis variations of passages of Lorem Ipsum available
+              </h2>
+              <div class="date-font">
+                <span class="date-font"><i class="fa-solid fa-user"></i> John Doe</span>
+                <span class="date-font"></span>
+                <i class="fa-solid fa-clock"></i>Jan 1, 2020</span>
+              </div>
+              <p class="text-para">
+                Quidem Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+                45 BC, making it over 2000 years old.
+              </p>
+              <div class="right-margin">
+                <button class="read-btn">Read More</button>
+              </div>
+            </div>
+          </figure>
+          <figure>
+            <img class="blog-image" src="./assets/media/blog-6.jpg" />
+            <div class="text-box">
+              <h2 class="text-head">
+                Debities variations of passages of Lorem Ipsum available
+              </h2>
+              <div class="date-font">
+                <span class="date-font"><i class="fa-solid fa-user"></i> John Doe</span>
+                <span class="date-font"></span>
+                <i class="fa-solid fa-clock"></i>Jan 1, 2020</span>
+              </div>
+              <p class="text-para">
+                Modi Dolar Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+                45 BC, making it over 2000 years old.
+              </p>
+              <div class="right-margin">
+                <button class="read-btn">Read More</button>
+              </div>
+            </div>
+          </figure>
+        </article>
+        <div class="inline shift">
+        <i class="fa-solid fa-angle-left icon"></i>
+        <div class="slider-box">1</div>
+            <div class="slider-box-style">2</div>
+                <div class="slider-box">3</div>
+                <i class="fa-solid fa-angle-right icon"></i>
+        </div>
+      </section>
+        <!-- Bottom-section -->
+        <section class="bottom-color">
+          <article class="bottom-width flex direction">
+            <div>
+              <h2 class="bottom-head">Flexor</h2>
+              <p class="bottom-para">A108 Adem Street New York NY535022 United States</p>
+              <div class="contact-margin">
+                <p class="contact-font"></p><strong>Phone No.</strong> 9652335525</p>
+                <p><strong>Email.</strong> info@example.com</p>
+              </div>
+            </div>
+            <div>
+              <h3 class="link-head-font">Useful Links</h3>
+              <div>
+                <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>Home</p>
+                <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>About</p>
+                <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>Services</p>
+                <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>Terms Of policy</p>
+                <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>Privacy Policy</p>
+              </div>
+            </div>
+            <div>
+              <h3 class="link-head-font">Our Services</h3>
+              <div>
+                <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>Web Design</p>
+                <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>Web Development</p>
+                <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>Product Management</p>
+                <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>Marketting</p>
+                <p class="bottom-para"><i class="fa-solid fa-caret-right icon-color"></i>Graphic Design</p>
+              </div>
+            </div>
+            <div>
+              <h3 class="link-head-font">Join Our Newsletter</h3>
+              <p class="bottom-para">On sait depuis longtemps que travailler avec du texte lisible
+              </p>
+              <div class="subscribe-box">
+                <button class="sub-btn">Subscribe</button>
+              </div>
+            </div>
+          </article>
+        </section>
+        <!-- footer-section -->
+        <footer class="bottom-width flex column">
+          <div>
+            <small>&copy;copyright<span> Flexor </span>All Right Reserved</small>
+            <p class="foot">Designed by <span>Bootstrep</span></p>
+          </div>
+          <div>
+            <i class="fa-brands fa-twitter-square social-icon"></i>
+            <i class="fa-brands fa-facebook social-icon"></i>
+            <i class="fa-brands fa-instagram-square social-icon"></i>
+            <i class="fa-brands fa-linkedin social-icon"></i>
+          </div>
+        </footer>
+    </main>
+  </body>
+</html>
